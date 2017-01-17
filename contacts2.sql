@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.0.2
+-- version 4.5.1
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 27, 2016 at 10:54 AM
--- Server version: 10.0.17-MariaDB
--- PHP Version: 5.6.14
+-- Generation Time: Jan 17, 2017 at 05:17 PM
+-- Server version: 10.1.19-MariaDB
+-- PHP Version: 5.6.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -76,7 +76,6 @@ INSERT INTO `contacts` (`id`, `firstname`, `lastname`, `address`, `city`, `mobil
 (9, 'Susan', 'Macahiya', '9030 Santan St., Brgy. Tambong', 1, '09171234567', 'slmacahiya@yahoo.com', '1958-08-24', '0.00', ''),
 (10, 'Albert', 'Daylisan', '1235 Calumpang St. Nino.', 0, '09222465018', 'adaylisan@gmail.com', '1985-05-05', '7000.00', 'No known address'),
 (11, 'Efren', 'Sumalabe', '71 Marquinton St., Fortune', 2, '09224784511', '', '0000-00-00', '0.00', ''),
-(12, 'Pedra', 'Timbuko', '', 0, '09234346138', '', '0000-00-00', '0.00', ''),
 (13, 'Pedrita', 'Timbuko', '', 0, '09234346140', '', '0000-00-00', '0.00', '');
 
 -- --------------------------------------------------------
@@ -146,7 +145,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `password`, `admin`) VALUES
-('dongcalmada', '3acadc7b91b4db9b98ba815338c2409805af4dea', 1);
+('admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 1);
 
 -- --------------------------------------------------------
 
